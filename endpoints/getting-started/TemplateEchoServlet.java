@@ -33,7 +33,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * A servlet that echoes JSON message bodies.
  */
-@WebServlet("v1/echo-0/echo")
+@WebServlet("v1/echo-<index>/echo")
 public class EchoServlet extends HttpServlet {
 
   @Override
